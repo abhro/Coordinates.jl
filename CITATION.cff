@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Coordinates.jl
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - given-names: Abhro
+repository-code: 'https://github.com/abhro/Coordinates.jl'
+license: MIT
+
