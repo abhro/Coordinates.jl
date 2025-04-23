@@ -12,3 +12,4 @@
 
 - [ ] Add vector algebra methods for spherical coordinates
 - [ ] Add tests
+  - [ ] Add tests for conversion ensuring compliance with CoordinateTransformations.jl
