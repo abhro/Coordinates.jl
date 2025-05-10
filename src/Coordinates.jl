@@ -1,6 +1,7 @@
 module Coordinates
 
 using LinearAlgebra
+using DocStringExtensions
 
 include("utils.jl")
 include("polar.jl")

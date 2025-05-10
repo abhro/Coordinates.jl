@@ -1,4 +1,9 @@
 # follow convention of Griffth's Electrodynamics when naming coordinates
+"""
+$(TYPEDEF)
+
+2-dimensional plane-polar coordinates, denoted by ``(s, φ)``.
+"""
 struct Polar{T<:Real,A<:Real}
     s::T
     φ::A

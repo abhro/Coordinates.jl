@@ -1,3 +1,8 @@
+"""
+$(TYPEDEF)
+
+3-dimensional cylindrical coordinates, denoted by ``(s, φ, z)``.
+"""
 struct Cylindrical{T<:Real,A<:Real}
     s::T
     φ::A # azimuthal angle
@@ -37,4 +42,3 @@ Base.:*(c::Real, x::Cylindrical) = Cylindrical(abs(c) * x.s, x.φ + π*(c<0), c 
 Base.:*(x::Cylindrical, c::Real) = Cylindrical(x.s * abs(c), x.φ + π*(c<0), x.z * c)
 
 Base.:/(x::Cylindrical, c::Real) = Cylindrical(x.s / abs(c), x.φ + π*(c<0), x.z / c)
-

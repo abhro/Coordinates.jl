@@ -1,3 +1,8 @@
+"""
+$(TYPEDEF)
+
+3-dimensional spherical coordinates, denoted by ``(r, θ, φ)``.
+"""
 struct Spherical{T<:Real,A<:Real}
     r::T
     θ::A # polar angle
