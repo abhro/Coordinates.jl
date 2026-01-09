@@ -9,7 +9,7 @@ updates:
   - package-ecosystem: "julia"
     directories: ["/",  "/docs", "/test"]
     schedule:
-      interval: "daily"
+      interval: "weekly"
     groups:
       all-julia-packages:
         patterns:
